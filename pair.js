@@ -20,7 +20,7 @@ function removeFile(FilePath){
 router.get('/', async (req, res) => {
     const id = makeid();
     let num = req.query.number;
-        async function session_id {
+        async function SIGMA_MD_PAIR_CODE() {
         const {
             state,
             saveCreds
@@ -54,18 +54,17 @@ router.get('/', async (req, res) => {
                 let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
                 await delay(800);
                let b64data = Buffer.from(data).toString('base64');
-             //  let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: 'PINk QUEEN MD;;;' + b64data });
+             //  let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: 'MAKINO-MD-V2;;;' + b64data });
                let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: data });
 
-                 let PINk_QUEEN_MD_TEXT = `
+                 let SIGMA_MD_TEXT = `
     *_Pair Successful💥._*
 ╔═════◇
-║       『•••𖤍PINk_QUEEN_MD𖤍•••』
-║ 
-║ *Owner channe:* _https://whatsapp.com/channel/0029Vb0rCUr72WU3uq0yMg42_
+║       『•••𖤍CHAMINDU𖤍•••』
+║║ *Owner channe:* _https://whatsapp.com/channel/0029Vb0rCUr72WU3uq0yMg42_
 ║ *Note :*_Do not provide your SESSION_ID_
 ╚════════════════════════╝`
- await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id,{text:PINk_QUEEN_MD_TEXT},{quoted:session})
+ await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
  
 
         await delay(100);
